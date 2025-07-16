@@ -18,7 +18,7 @@ class Pipe{
         eCtx.drawImage(this.imagePipeDown,0,0         ,26,this.h-(this.y+80) ,this.x,this.y+80+50,26,this.h-(this.y+80)); 
         this.x--;        
         if (this.x < 0){
-            this.x = 294; 
+            this.x = 300; 
             this.y = Math.round(50 + Math.random()*260);  
         }
     }    

@@ -1,10 +1,10 @@
 
 const scoreboard = {
-    color:"black",
-    colorText:"white",
-    width: 320,
-    height: 50,
-    name:"IFRJ Bird",
+    color:"blue",
+    colorText:"green",
+    width: 340,
+    height: 60,
+    name:"Flappy Bird",
     draw(){
         eCtx.fillStyle = this.color;
         eCtx.fillRect(0,0,this.width,this.height)

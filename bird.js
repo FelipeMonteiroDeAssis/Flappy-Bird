@@ -1,10 +1,10 @@
 class Bird{
     x= 100;
     y= 100;
-    size= 25;
-    velocity=0.5;
+    size= 20;
+    velocity=1;
     gravity=0.2;
-    flapVelocity=5;
+    flapVelocity=6;
     life=1;
     #image;
     imageFile="./img/bird.png";
@@ -36,7 +36,7 @@ class Bird{
             this.frames = 0     
     }
     flap(){
-        this.velocity=-3;
+        this.velocity=-4;
         this.flapSound.play();
     }
     die(){
