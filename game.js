@@ -11,8 +11,6 @@ function play(){
     if (Math.abs(bird.x-pipe.x) < bird.size)
         if ((bird.y < pipe.y+50) || (bird.y > pipe.y+110)){
             bird.hit();
-            console.log('Bird X:' + bird.x+ ' Bird Y:' + bird.y);
-            console.log('Pipe X:' + pipe.x+ ' Pipe Y:' + pipe.y);
         }
             
 }
